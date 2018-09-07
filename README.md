@@ -4,26 +4,28 @@
 
 This page should be used if you wish to begin [Truffle](https://truffleframework.com/) based development/test of Smart Contracts.
 
-### 1. Install NODE-JS
+### Setup steps
 
-#### Windows
+#### 1. Install NODE-JS
+
+##### Windows
 
 Click [here](https://www.wikihow.com/Install-Node.Js-on-Windows) for installation steps in windows.
 
 
-### 2. Install Truffle
+#### 2. Install Truffle
 
 ```bash
 npm install truffle
 ```
 
-### 3. Install TestRPC
+#### 3. Install TestRPC
 
 ```bash
 npm install ethereumjs-testrpc
 ```
 
-### 4. Create and test your new Truffle project
+#### 4. Create and test your new Truffle project
 
 A **Truffle Project** contains:
 
