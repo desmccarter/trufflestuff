@@ -150,7 +150,12 @@ npm install chai
 
 Under the test folder create a new file named 01test.js and edit it. Paste the following text:
 
+```javascript
+// Import your smart object ...
+var Demo = artifacts.require("Demo");
 
+
+```
 
 
 
