@@ -35,7 +35,6 @@ A **Truffle Project** contains:
 
 ```bash
 mkdir ~/projects/mysmartcontracts
-
 ```
 
 #### b. Initialise your project with truffle
@@ -43,3 +42,17 @@ mkdir ~/projects/mysmartcontracts
 ```bash
 truffle init
 ```
+#### c. Launch TestRPC from ANOTHER bash terminal
+
+```bash
+# from another bash terminal type ...
+testrpc
+```
+#### d. Test your new environment: truffle test
+
+```bash
+# from another bash terminal type ...
+truffle test
+```
+
+
