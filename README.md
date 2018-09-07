@@ -168,11 +168,12 @@ contract("Test the Demo contract"), function(accounts){
 		});
 	});
 
+	describe("Check the contract variables", function(){
+		it("The name variable is Des", function(){
+			return demoContract.name().then(funcion(res){
+				expect(res.toString()).to.be.equal("Des");
+			});
+		});
+	});
 });
 ```
-
-
-
-
-
-
