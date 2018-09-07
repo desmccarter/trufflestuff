@@ -68,3 +68,42 @@ Compiling .\contracts\Migrations.sol...
 
 Des.McCarter@LPT2903 MINGW64 ~/projects/mysmartcontracts
 ```
+
+### Create and Test a simple smart contract
+
+
+#### 1. Create a new file named contracts/Demo.sol
+
+```bash
+>contracts/demo.sol
+```
+
+Now edit the file and insert the following code:
+
+#### 2. Add Solidy Pragma
+
+```javascript
+pragma solidity ^0.4.11;
+```
+
+#### 3. Add your contact
+
+```javascript
+pragma solidity ^0.4.11;
+
+contract Demo {
+
+}
+```
+
+#### 4. Add a variable to your contact
+
+```javascript
+pragma solidity ^0.4.11;
+
+contract Demo {
+	string public name = "des";
+}
+```
+
+
