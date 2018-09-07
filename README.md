@@ -57,4 +57,14 @@ testrpc
 truffle test
 ```
 
+Output should be similar to the following:
 
+```bash
+Compiling .\contracts\Migrations.sol...
+
+
+  0 passing (0ms)
+
+
+Des.McCarter@LPT2903 MINGW64 ~/projects/mysmartcontracts
+```
