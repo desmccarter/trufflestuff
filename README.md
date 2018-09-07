@@ -157,6 +157,18 @@ var Demo = artifacts.require("Demo");
 // Import 'expect' object from Chai package ...
 expect = require("chai").expect;
 
+// Tests can be nested in 3 levels: a. the *contract* b. *describe* and c. *it* ...
+
+contract("Test the Demo contract"), function(accounts){
+	describe("Deploy the Demo smart contract", function(){
+		it("Create a new instance of the smart contract", function(){
+			return Demo.new().then(funcion(instance){
+				demoContract = instance;
+			});
+		});
+	});
+
+});
 ```
 
 
