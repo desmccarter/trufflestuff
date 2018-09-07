@@ -11,3 +11,27 @@ This page should be used if you wish to begin [Truffle](https://truffleframework
 Click [here](https://www.wikihow.com/Install-Node.Js-on-Windows) for installation steps in windows.
 
 
+### 2. Install Truffle
+
+```bash
+npm install truffle
+```
+
+### 3. Install TestRPC
+
+```bash
+npm install ethereumjs-testrpc
+```
+
+### 4. Create your Truffle Project
+
+A **Truffle Project** contains:
+
+1. Files representing the smart contracts
+2. Configuration files for smart object deployment
+3. Test files which are used to test the smart object deployment
+
+```bash
+
+```
+
