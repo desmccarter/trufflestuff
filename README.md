@@ -23,7 +23,7 @@ npm install truffle
 npm install ethereumjs-testrpc
 ```
 
-### 4. Create and test your new Truffle project
+### 4. Create and test your ne Truffle project
 
 A **Truffle Project** contains:
 
