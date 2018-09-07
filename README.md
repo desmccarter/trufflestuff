@@ -146,4 +146,14 @@ truffle migrate
 npm install chai
 ```
 
+#### 2. Create and Edit test file
+
+Under the test folder create a new file named 01test.js and edit it. Paste the following text:
+
+
+
+
+
+
+
 
