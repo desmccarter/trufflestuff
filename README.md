@@ -138,7 +138,12 @@ truffle migrate
 ```
 
 
+### Test your smart contract
+
+#### 1. Install chai (adds BDD type context to your tests)
+
+```bash
+npm install chai
+```
 
 
-
-#
