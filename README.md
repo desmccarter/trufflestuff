@@ -71,7 +71,6 @@ Des.McCarter@LPT2903 MINGW64 ~/projects/mysmartcontracts
 
 ### Create and Test a simple smart contract
 
-
 #### 1. Create a new file named contracts/Demo.sol
 
 ```bash
@@ -107,3 +106,22 @@ contract Demo {
 ```
 
 
+#### 5. Add a variable to your contact
+
+```solidity
+pragma solidity ^0.4.11;
+
+contract Demo {
+	string public name = "des";
+}
+```
+
+### Deploy your new Smart Contract
+
+#### 1. Edit JS file in migrations folder inserting deploy steps
+
+```javascript
+var Demo = artifacts.require("Demo");
+
+
+```
