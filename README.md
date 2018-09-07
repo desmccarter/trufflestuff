@@ -128,3 +128,17 @@ module.exports = function(deployer){
 };
 
 ```
+
+#### 2. Deploy new Smart Contract to TestRPC
+
+To to the root of your new smart contracts folder and (in bash) type:
+
+```bash
+truffle migrate
+```
+
+
+
+
+
+#
