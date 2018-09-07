@@ -154,6 +154,8 @@ Under the test folder create a new file named 01test.js and edit it. Paste the f
 // Import your smart object ...
 var Demo = artifacts.require("Demo");
 
+// Import 'expect' object from Chai package ...
+expect = require("chai").expect;
 
 ```
 
