@@ -98,7 +98,7 @@ contract Demo {
 
 #### 4. Add a variable to your contact
 
-```javascript
+```solidity
 pragma solidity ^0.4.11;
 
 contract Demo {
