@@ -82,13 +82,13 @@ Now edit the file and insert the following code:
 
 #### 2. Add Solidy Pragma
 
-```javascript
+```solidity
 pragma solidity ^0.4.11;
 ```
 
 #### 3. Add your contact
 
-```javascript
+```solidity
 pragma solidity ^0.4.11;
 
 contract Demo {
