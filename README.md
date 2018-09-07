@@ -31,7 +31,15 @@ A **Truffle Project** contains:
 2. Configuration files for smart object deployment
 3. Test files which are used to test the smart object deployment
 
+#### a. Create a folder which will contain you files. This will be your project folder.
+
 ```bash
+mkdir ~/projects/mysmartcontracts
 
 ```
 
+#### b. Initialise your project with truffle
+
+```bash
+truffle init
+```
