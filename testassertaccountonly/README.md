@@ -52,8 +52,14 @@ To to the root of your new smart contracts folder and (in bash) type:
 truffle migrate
 ```
 
+### 3. Add chai-as-promised package
 
-### Test your smart contract
+```bash
+npm install chai-as-promised
+```
+
+
+### 4. Test your smart contract
 
 #### 1. Create and Edit test file
 
@@ -64,7 +70,10 @@ Under the test folder create a new file named 01test.js and edit it. Paste the f
 var Demo = artifacts.require("Demo");
 
 // Import 'expect' object from Chai package ...
-expect = require("chai").expect;
+chai = require("chai");
+chaiAsPromised = require("chai-as-promised");
+chai.use(chaiAsPromised);
+expect = chai.expect;
 
 // Tests can be nested in 3 levels: a. the *contract* b. *describe* and c. *it* ...
 
@@ -81,6 +90,18 @@ contract("Test the Demo contract", function(accounts){
 		it("Change the variable name to Lisa", function(){
 			return demoContract.changeName("Lisa").then(function(res){
 				expect(res.toString()).to.not.be.an("error");
+			});
+		});
+
+		it("Check the variable is set to Lisa", function(){
+			return demoContract.name().then(function(res){
+				expect(res.toString()).to.be.equal("Lisa");
+			});
+		});
+
+		it("Change the variable name to Des using different account (this should fail)", function(){
+			return demoContract.changeName("Des", {"from": accounts[1]}).then(function(res){
+				expect(res.toString()).to.be.eventually.rejected;
 			});
 		});
 
