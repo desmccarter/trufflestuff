@@ -1,10 +1,15 @@
 ## Creating Smart Contracts with Truffle
 
-### Basic Contract
+### Basic Contract: Simple Contact with static string
 
-This page should be used if you wish to begin [Truffle](https://truffleframework.com/) based development/test of Smart Contracts.
+This page will show you how to:
 
-#### 1. Create a new file named contracts/Demo.sol
+1. Create a contract with a public string variable
+2. Create a test to check the string variable
+
+### Steps
+
+#### 1. Create a new Contract named contracts/Demo.sol
 
 ```bash
 >contracts/Demo.sol
@@ -12,34 +17,9 @@ This page should be used if you wish to begin [Truffle](https://truffleframework
 
 Now edit the file and insert the following code:
 
-#### 2. Add Solidy Pragma
+#### 2. Edit Contract
 
-```solidity
-pragma solidity ^0.4.11;
-```
-
-#### 3. Add your contact
-
-```solidity
-pragma solidity ^0.4.11;
-
-contract Demo {
-
-}
-```
-
-#### 4. Add a variable to your contact
-
-```solidity
-pragma solidity ^0.4.11;
-
-contract Demo {
-	string public name = "des";
-}
-```
-
-
-#### 5. Add a variable to your contact
+Add *pragma* and the contract itself ...
 
 ```solidity
 pragma solidity ^0.4.11;
