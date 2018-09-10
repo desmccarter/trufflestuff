@@ -177,3 +177,21 @@ contract("Test the Demo contract", function(accounts){
 	});
 });
 ```
+
+#### 3. Run the test
+
+```bash
+$ truffle test
+Using network 'development'.
+
+
+
+  Contract: Test the Demo contract
+    Deploy the Demo smart contract
+      √ Create a new instance of the smart contract (82ms)
+    Check the contract variables
+      √ The name variable is Des
+
+
+  2 passing (145ms)
+```
