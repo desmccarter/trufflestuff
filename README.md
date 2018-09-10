@@ -159,10 +159,10 @@ expect = require("chai").expect;
 
 // Tests can be nested in 3 levels: a. the *contract* b. *describe* and c. *it* ...
 
-contract("Test the Demo contract"), function(accounts){
+contract("Test the Demo contract", function(accounts){
 	describe("Deploy the Demo smart contract", function(){
 		it("Create a new instance of the smart contract", function(){
-			return Demo.new().then(funcion(instance){
+			return Demo.new().then(function(instance){
 				demoContract = instance;
 			});
 		});
@@ -170,7 +170,7 @@ contract("Test the Demo contract"), function(accounts){
 
 	describe("Check the contract variables", function(){
 		it("The name variable is Des", function(){
-			return demoContract.name().then(funcion(res){
+			return demoContract.name().then(function(res){
 				expect(res.toString()).to.be.equal("Des");
 			});
 		});
